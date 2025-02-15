@@ -108,8 +108,9 @@ $$
 Writing the inverse of $\Sigma$ as
 
 $$ \label{eq:Sigma-inv-def}
-\Sigma^{-1} = \begin{bmatrix} \Sigma^{11} & \Sigma^{12} \\ \Sigma^{21} & \Sigma^{22} \end{bmatrix}
+\Sigma^{-1} = \left( \begin{bmatrix} \Sigma^{11} & \Sigma^{12} \\ \Sigma^{21} & \Sigma^{22} \end{bmatrix} \right)^{-1}
 $$
+
 
 and applying \eqref{eq:mvn-joint-hyp} to \eqref{eq:mvn-cond-s3}, we get:
 
